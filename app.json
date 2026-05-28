@@ -1,24 +1,29 @@
 {
   "expo": {
-    "name": "doxie-hisaab-temp",
-    "slug": "doxie-hisaab-temp",
+    "name": "Docstec Tracker",
+    "slug": "docstec-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Docstec Logo.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.docstec.docstectracker"
     },
     "android": {
+      "package": "com.docstec.docstectracker",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#1B2A4A",
+        "foregroundImage": "./assets/Docstec Logo.png",
+        "backgroundImage": "./assets/Docstec Logo.png",
+        "monochromeImage": "./assets/Docstec Logo.png"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/Docstec Logo.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
